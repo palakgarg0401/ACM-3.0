@@ -1,0 +1,201 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+body{
+    background-color: black;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.header{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 12vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+    position: fixed;
+    z-index: 1;
+    background-color: black;
+    opacity: 0.6;
+}
+.nav1{
+    width: 15%;
+    height: 100%;
+    align-items: center;
+}
+.nav1 img{
+    width: 100%;
+    height: 80%;
+}
+.nav2{
+    width: 85%;
+    height: 100%;
+    align-items: center;
+    color: white;
+    padding-top: 5vh;
+}
+.nav2 a{
+    color: white;
+}
+nav ul{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+nav ul li{
+    list-style-type: none;
+}
+main{
+    position: relative;
+    top: 4vh;
+}
+.relax{
+    width: 100%;
+    height: 6vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.relax h6{
+    font-size: large;
+}
+.year{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    top: 0;
+}
+.year1{
+    width: 30%;
+    height: 400px;
+}
+.year2{
+    width: 70%;
+    height: 400px;
+    padding-top: 30px;
+    padding-left: 50px;
+}
+.Phone{
+    width: 10%;
+    display: flex;
+    justify-content: space-around;
+}
+.image img{
+    width: 100%;
+    height: 360px;
+}
+.new{
+    display: flex;
+    /* flex-direction: row-reverse; */
+    margin: 0;
+    padding: 0;
+    margin-left: 90px;
+}
+.ticket h6{
+    font-size: xx-large;
+}
+.ticket select{
+    color: black;
+    height: 28px;
+    border-radius: 5px;
+}
+.ticket option{
+    color: black;
+}
+.ticket input{
+    color: black;
+    border-radius: 5px;
+    height: 28px;
+}
+.ticketimg img{
+    height: 300px;
+    width: 350px;
+}
+.form1{
+    margin-left: 220px;
+    padding-top: 20px;
+    font-size: larger;
+}
+.form1 button{
+    border-radius: 5px;
+    background-color: red;
+    color: white;
+    height: 50px;
+    width: 110px;
+    margin-left: 53px;
+    font-size: 18px;
+}
+.to select{
+    margin-left: 68px;
+}
+.from select{
+    margin-left: 47px;
+}
+.date{
+    margin-left: 52px;
+}
+.passenger input{
+    margin-left: 5px;
+}
+.msg{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: left;
+}
+.msg1{
+    padding-left: 20px;
+    padding-top: 10px;
+    width: 40%;
+    height: 100%;
+}
+.msg2{
+    padding-left: 50px;
+    height: 100%;
+    width: 60%;
+    padding-top: 30px;
+}
+footer{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 30px;
+    background-color: black;
+}
+.footer1{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+footer ul{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+footer ul li{
+    list-style-type: none;
+}
+.left{
+    left: 0;
+    width: 30%;
+    height: 100%;
+    padding-left: 5px;
+}
+.right{
+    left: 30%;
+    height: 100%;
+    width: 70%;
+}
+.process h6{
+    font-size: xx-large;
+}
